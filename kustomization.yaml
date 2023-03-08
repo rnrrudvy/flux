@@ -6,10 +6,10 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./workloads
+  path: ./flux-demo/workloads
   prune: true
   sourceRef:
     kind: GitRepository
-    name: podinfo
+    name: test
   targetNamespace: demo
 
