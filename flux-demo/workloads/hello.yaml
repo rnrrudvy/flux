@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: docker-nodejs-demo
-        image: busybox:latest
+        image: nginx:latest
         ports:
         - name: nodejs-port
           containerPort: 3000
