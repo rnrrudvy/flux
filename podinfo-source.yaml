@@ -8,5 +8,5 @@ spec:
   interval: 30s
   ref:
     branch: master
-  url: https://github.com/rnrrudvy/flux/tree/master/flux-demo/workloads
+  url: https://github.com/rnrrudvy/flux/tree/master/flux-demo
 
